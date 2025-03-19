@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D13475372D8898FF0040C8DC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13475362D8898FF0040C8DC /* SettingsViewController.swift */; };
+		D13475392D88A5900040C8DC /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13475382D88A5900040C8DC /* PrivacyPolicyVC.swift */; };
+		D14DD5B02D868FB80008298C /* LevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5AF2D868FB80008298C /* LevelCell.swift */; };
+		D14DD5B22D86905E0008298C /* LevelSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5B12D86905E0008298C /* LevelSelectionVC.swift */; };
+		D14DD5B42D86939D0008298C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5B32D86939D0008298C /* Keys.swift */; };
+		D14DD5B62D8694030008298C /* InitializeUserValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5B52D8694030008298C /* InitializeUserValues.swift */; };
+		D14DD5B82D8694E80008298C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5B72D8694E80008298C /* UserData.swift */; };
+		D14DD5BB2D8698F30008298C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D14DD5BA2D8698F30008298C /* SnapKit */; };
+		D14DD5BD2D86A0B20008298C /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5BC2D86A0B20008298C /* GameVC.swift */; };
+		D14DD5BF2D86F5A60008298C /* GameHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5BE2D86F5A60008298C /* GameHelperViewController.swift */; };
+		D14DD5C22D87EA860008298C /* UIButton + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DD5C12D87EA860008298C /* UIButton + Ext.swift */; };
+		D185292D2D854789000C6E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185292C2D854789000C6E29 /* AppDelegate.swift */; };
+		D185292F2D854789000C6E29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185292E2D854789000C6E29 /* SceneDelegate.swift */; };
+		D18529312D854789000C6E29 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18529302D854789000C6E29 /* RootVC.swift */; };
+		D18529342D854789000C6E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18529322D854789000C6E29 /* Main.storyboard */; };
+		D18529372D854789000C6E29 /* NikolaiBall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D18529352D854789000C6E29 /* NikolaiBall.xcdatamodeld */; };
+		D18529392D85478A000C6E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18529382D85478A000C6E29 /* Assets.xcassets */; };
+		D185293C2D85478A000C6E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D185293A2D85478A000C6E29 /* LaunchScreen.storyboard */; };
+		D185295B2D854AFE000C6E29 /* Karla-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529482D854AFD000C6E29 /* Karla-Italic-VariableFont_wght.ttf */; };
+		D185295C2D854AFE000C6E29 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D185294A2D854AFD000C6E29 /* Karla-Italic.ttf */; };
+		D185295D2D854AFE000C6E29 /* Karla-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D185294B2D854AFD000C6E29 /* Karla-SemiBold.ttf */; };
+		D185295E2D854AFE000C6E29 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D185294C2D854AFD000C6E29 /* Karla-ExtraBold.ttf */; };
+		D185295F2D854AFE000C6E29 /* Karla-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D185294D2D854AFD000C6E29 /* Karla-MediumItalic.ttf */; };
+		D18529602D854AFE000C6E29 /* Karla-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D185294E2D854AFD000C6E29 /* Karla-Light.ttf */; };
+		D18529612D854AFE000C6E29 /* Karla-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D185294F2D854AFD000C6E29 /* Karla-ExtraLightItalic.ttf */; };
+		D18529622D854AFE000C6E29 /* Karla-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529502D854AFD000C6E29 /* Karla-ExtraBoldItalic.ttf */; };
+		D18529632D854AFE000C6E29 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529512D854AFD000C6E29 /* Karla-Medium.ttf */; };
+		D18529642D854AFE000C6E29 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529522D854AFD000C6E29 /* Karla-Regular.ttf */; };
+		D18529652D854AFE000C6E29 /* Karla-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529532D854AFD000C6E29 /* Karla-SemiBoldItalic.ttf */; };
+		D18529662D854AFE000C6E29 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529542D854AFD000C6E29 /* Karla-BoldItalic.ttf */; };
+		D18529672D854AFE000C6E29 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529552D854AFD000C6E29 /* Karla-Bold.ttf */; };
+		D18529682D854AFE000C6E29 /* Karla-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529562D854AFD000C6E29 /* Karla-ExtraLight.ttf */; };
+		D18529692D854AFE000C6E29 /* Karla-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529572D854AFD000C6E29 /* Karla-LightItalic.ttf */; };
+		D185296A2D854AFE000C6E29 /* Karla-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18529582D854AFD000C6E29 /* Karla-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D13475362D8898FF0040C8DC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D13475382D88A5900040C8DC /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		D14DD5AF2D868FB80008298C /* LevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCell.swift; sourceTree = "<group>"; };
+		D14DD5B12D86905E0008298C /* LevelSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionVC.swift; sourceTree = "<group>"; };
+		D14DD5B32D86939D0008298C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		D14DD5B52D8694030008298C /* InitializeUserValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeUserValues.swift; sourceTree = "<group>"; };
+		D14DD5B72D8694E80008298C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		D14DD5BC2D86A0B20008298C /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		D14DD5BE2D86F5A60008298C /* GameHelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHelperViewController.swift; sourceTree = "<group>"; };
+		D14DD5C12D87EA860008298C /* UIButton + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Ext.swift"; sourceTree = "<group>"; };
+		D18529292D854789000C6E29 /* ClickKings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickKings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D185292C2D854789000C6E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D185292E2D854789000C6E29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D18529302D854789000C6E29 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		D18529332D854789000C6E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18529362D854789000C6E29 /* NikolaiBall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NikolaiBall.xcdatamodel; sourceTree = "<group>"; };
+		D18529382D85478A000C6E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D185293B2D85478A000C6E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D185293D2D85478A000C6E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ClickKings/Info.plist; sourceTree = SOURCE_ROOT; };
+		D18529482D854AFD000C6E29 /* Karla-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D185294A2D854AFD000C6E29 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		D185294B2D854AFD000C6E29 /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		D185294C2D854AFD000C6E29 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D185294D2D854AFD000C6E29 /* Karla-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D185294E2D854AFD000C6E29 /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		D185294F2D854AFD000C6E29 /* Karla-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D18529502D854AFD000C6E29 /* Karla-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D18529512D854AFD000C6E29 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		D18529522D854AFD000C6E29 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		D18529532D854AFD000C6E29 /* Karla-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D18529542D854AFD000C6E29 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D18529552D854AFD000C6E29 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		D18529562D854AFD000C6E29 /* Karla-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D18529572D854AFD000C6E29 /* Karla-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-LightItalic.ttf"; sourceTree = "<group>"; };
+		D18529582D854AFD000C6E29 /* Karla-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18529262D854789000C6E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DD5BB2D8698F30008298C /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14DD5AE2D868F9F0008298C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D14DD5AF2D868FB80008298C /* LevelCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D14DD5C02D87EA780008298C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D14DD5BE2D86F5A60008298C /* GameHelperViewController.swift */,
+				D14DD5C12D87EA860008298C /* UIButton + Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D18529202D854789000C6E29 = {
+			isa = PBXGroup;
+			children = (
+				D185292B2D854789000C6E29 /* ClickKings */,
+				D185292A2D854789000C6E29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D185292A2D854789000C6E29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18529292D854789000C6E29 /* ClickKings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D185292B2D854789000C6E29 /* ClickKings */ = {
+			isa = PBXGroup;
+			children = (
+				D18529432D8547B7000C6E29 /* Application */,
+				D18529452D8547CC000C6E29 /* Controllers */,
+				D18529442D8547C2000C6E29 /* Storyboard */,
+				D185293D2D85478A000C6E29 /* Info.plist */,
+				D14DD5C02D87EA780008298C /* Helpers */,
+				D14DD5AE2D868F9F0008298C /* View */,
+				D18529472D854AFD000C6E29 /* Karla - Font */,
+				D18529462D8547DA000C6E29 /* CoreData */,
+			);
+			path = ClickKings;
+			sourceTree = "<group>";
+		};
+		D18529432D8547B7000C6E29 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D185292C2D854789000C6E29 /* AppDelegate.swift */,
+				D185292E2D854789000C6E29 /* SceneDelegate.swift */,
+				D18529382D85478A000C6E29 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D18529442D8547C2000C6E29 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D18529322D854789000C6E29 /* Main.storyboard */,
+				D185293A2D85478A000C6E29 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D18529452D8547CC000C6E29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D18529302D854789000C6E29 /* RootVC.swift */,
+				D14DD5B12D86905E0008298C /* LevelSelectionVC.swift */,
+				D14DD5BC2D86A0B20008298C /* GameVC.swift */,
+				D13475362D8898FF0040C8DC /* SettingsViewController.swift */,
+				D13475382D88A5900040C8DC /* PrivacyPolicyVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D18529462D8547DA000C6E29 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D18529352D854789000C6E29 /* NikolaiBall.xcdatamodeld */,
+				D14DD5B32D86939D0008298C /* Keys.swift */,
+				D14DD5B52D8694030008298C /* InitializeUserValues.swift */,
+				D14DD5B72D8694E80008298C /* UserData.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D18529472D854AFD000C6E29 /* Karla - Font */ = {
+			isa = PBXGroup;
+			children = (
+				D18529482D854AFD000C6E29 /* Karla-Italic-VariableFont_wght.ttf */,
+				D18529492D854AFD000C6E29 /* static */,
+				D18529582D854AFD000C6E29 /* Karla-VariableFont_wght.ttf */,
+			);
+			path = "Karla - Font";
+			sourceTree = "<group>";
+		};
+		D18529492D854AFD000C6E29 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				D185294A2D854AFD000C6E29 /* Karla-Italic.ttf */,
+				D185294B2D854AFD000C6E29 /* Karla-SemiBold.ttf */,
+				D185294C2D854AFD000C6E29 /* Karla-ExtraBold.ttf */,
+				D185294D2D854AFD000C6E29 /* Karla-MediumItalic.ttf */,
+				D185294E2D854AFD000C6E29 /* Karla-Light.ttf */,
+				D185294F2D854AFD000C6E29 /* Karla-ExtraLightItalic.ttf */,
+				D18529502D854AFD000C6E29 /* Karla-ExtraBoldItalic.ttf */,
+				D18529512D854AFD000C6E29 /* Karla-Medium.ttf */,
+				D18529522D854AFD000C6E29 /* Karla-Regular.ttf */,
+				D18529532D854AFD000C6E29 /* Karla-SemiBoldItalic.ttf */,
+				D18529542D854AFD000C6E29 /* Karla-BoldItalic.ttf */,
+				D18529552D854AFD000C6E29 /* Karla-Bold.ttf */,
+				D18529562D854AFD000C6E29 /* Karla-ExtraLight.ttf */,
+				D18529572D854AFD000C6E29 /* Karla-LightItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18529282D854789000C6E29 /* ClickKings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18529402D85478A000C6E29 /* Build configuration list for PBXNativeTarget "ClickKings" */;
+			buildPhases = (
+				D18529252D854789000C6E29 /* Sources */,
+				D18529262D854789000C6E29 /* Frameworks */,
+				D18529272D854789000C6E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickKings;
+			packageProductDependencies = (
+				D14DD5BA2D8698F30008298C /* SnapKit */,
+			);
+			productName = NikolaiBall;
+			productReference = D18529292D854789000C6E29 /* ClickKings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18529212D854789000C6E29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D18529282D854789000C6E29 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D18529242D854789000C6E29 /* Build configuration list for PBXProject "ClickKings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18529202D854789000C6E29;
+			packageReferences = (
+				D14DD5B92D8698F30008298C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = D185292A2D854789000C6E29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18529282D854789000C6E29 /* ClickKings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18529272D854789000C6E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18529612D854AFE000C6E29 /* Karla-ExtraLightItalic.ttf in Resources */,
+				D18529632D854AFE000C6E29 /* Karla-Medium.ttf in Resources */,
+				D18529662D854AFE000C6E29 /* Karla-BoldItalic.ttf in Resources */,
+				D18529692D854AFE000C6E29 /* Karla-LightItalic.ttf in Resources */,
+				D18529672D854AFE000C6E29 /* Karla-Bold.ttf in Resources */,
+				D185296A2D854AFE000C6E29 /* Karla-VariableFont_wght.ttf in Resources */,
+				D18529622D854AFE000C6E29 /* Karla-ExtraBoldItalic.ttf in Resources */,
+				D185293C2D85478A000C6E29 /* LaunchScreen.storyboard in Resources */,
+				D185295F2D854AFE000C6E29 /* Karla-MediumItalic.ttf in Resources */,
+				D18529392D85478A000C6E29 /* Assets.xcassets in Resources */,
+				D185295C2D854AFE000C6E29 /* Karla-Italic.ttf in Resources */,
+				D185295D2D854AFE000C6E29 /* Karla-SemiBold.ttf in Resources */,
+				D18529342D854789000C6E29 /* Main.storyboard in Resources */,
+				D18529652D854AFE000C6E29 /* Karla-SemiBoldItalic.ttf in Resources */,
+				D185295B2D854AFE000C6E29 /* Karla-Italic-VariableFont_wght.ttf in Resources */,
+				D18529602D854AFE000C6E29 /* Karla-Light.ttf in Resources */,
+				D18529642D854AFE000C6E29 /* Karla-Regular.ttf in Resources */,
+				D18529682D854AFE000C6E29 /* Karla-ExtraLight.ttf in Resources */,
+				D185295E2D854AFE000C6E29 /* Karla-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18529252D854789000C6E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DD5B22D86905E0008298C /* LevelSelectionVC.swift in Sources */,
+				D18529312D854789000C6E29 /* RootVC.swift in Sources */,
+				D185292D2D854789000C6E29 /* AppDelegate.swift in Sources */,
+				D14DD5B82D8694E80008298C /* UserData.swift in Sources */,
+				D18529372D854789000C6E29 /* NikolaiBall.xcdatamodeld in Sources */,
+				D14DD5B42D86939D0008298C /* Keys.swift in Sources */,
+				D14DD5B02D868FB80008298C /* LevelCell.swift in Sources */,
+				D13475392D88A5900040C8DC /* PrivacyPolicyVC.swift in Sources */,
+				D14DD5B62D8694030008298C /* InitializeUserValues.swift in Sources */,
+				D14DD5BD2D86A0B20008298C /* GameVC.swift in Sources */,
+				D14DD5C22D87EA860008298C /* UIButton + Ext.swift in Sources */,
+				D13475372D8898FF0040C8DC /* SettingsViewController.swift in Sources */,
+				D14DD5BF2D86F5A60008298C /* GameHelperViewController.swift in Sources */,
+				D185292F2D854789000C6E29 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D18529322D854789000C6E29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18529332D854789000C6E29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D185293A2D85478A000C6E29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D185293B2D85478A000C6E29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D185293E2D85478A000C6E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D185293F2D85478A000C6E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18529412D85478A000C6E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F993U8JD2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickKings/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jumperks Balliks";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "ы";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skuetzb.ubiwast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D18529422D85478A000C6E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F993U8JD2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickKings/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jumperks Balliks";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "ы";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skuetzb.ubiwast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18529242D854789000C6E29 /* Build configuration list for PBXProject "ClickKings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D185293E2D85478A000C6E29 /* Debug */,
+				D185293F2D85478A000C6E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18529402D85478A000C6E29 /* Build configuration list for PBXNativeTarget "ClickKings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18529412D85478A000C6E29 /* Debug */,
+				D18529422D85478A000C6E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D14DD5B92D8698F30008298C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D14DD5BA2D8698F30008298C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D14DD5B92D8698F30008298C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D18529352D854789000C6E29 /* NikolaiBall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D18529362D854789000C6E29 /* NikolaiBall.xcdatamodel */,
+			);
+			currentVersion = D18529362D854789000C6E29 /* NikolaiBall.xcdatamodel */;
+			path = NikolaiBall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D18529212D854789000C6E29 /* Project object */;
+}
