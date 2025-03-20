@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LlT-ac-aaQ">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LlT-ac-aaQ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -19,16 +19,16 @@
         <!--RootVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="RootVC" id="BYZ-38-t0r" customClass="RootVC" customModule="NikolaiBall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootVC" id="BYZ-38-t0r" customClass="RootVC" customModule="ClickKings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainScreenBackImage" translatesAutoresizingMaskIntoConstraints="NO" id="6qa-CJ-Mwv">
-                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGf-KX-zXP">
-                                <rect key="frame" x="364" y="69" width="50" height="50"/>
+                                <rect key="frame" x="327" y="69" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="5Ww-AL-ASo"/>
                                     <constraint firstAttribute="width" constant="50" id="nWp-ol-WkT"/>
@@ -40,13 +40,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="敲打玻璃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7r-ME-3es">
-                                <rect key="frame" x="95" y="310.66666666666669" width="240" height="71"/>
+                                <rect key="frame" x="76.666666666666686" y="270.66666666666669" width="240" height="71"/>
                                 <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAw-TO-e8L">
-                                <rect key="frame" x="140" y="396.66666666666669" width="150" height="150.00000000000006"/>
+                                <rect key="frame" x="121.66666666666669" y="356.66666666666669" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="aLH-Bp-qeD"/>
                                     <constraint firstAttribute="height" constant="150" id="cJJ-HH-xJR"/>
@@ -58,13 +58,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 级完成" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJ7-2B-s9Q">
-                                <rect key="frame" x="140.66666666666666" y="847" width="148.99999999999997" height="41"/>
+                                <rect key="frame" x="122" y="767" width="149" height="41"/>
                                 <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainScreenBottomImage" translatesAutoresizingMaskIntoConstraints="NO" id="36w-Yy-ZOz">
-                                <rect key="frame" x="115" y="739" width="200" height="100"/>
+                                <rect key="frame" x="96.666666666666686" y="659" width="200" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="I0X-7T-1wm"/>
                                     <constraint firstAttribute="height" constant="100" id="oYV-Rt-8jW"/>
@@ -102,13 +102,13 @@
         <!--Level SelectionVC-->
         <scene sceneID="Zpx-ey-0Dz">
             <objects>
-                <viewController storyboardIdentifier="LevelSelectionVC" id="bHQ-Qk-n5Y" customClass="LevelSelectionVC" customModule="NikolaiBall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LevelSelectionVC" id="bHQ-Qk-n5Y" customClass="LevelSelectionVC" customModule="ClickKings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="39j-32-P3c">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameBack" translatesAutoresizingMaskIntoConstraints="NO" id="JSa-gS-bru">
-                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz1-lj-eor">
                                 <rect key="frame" x="16" y="69" width="50" height="50"/>
@@ -123,7 +123,7 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QSA-54-84i">
-                                <rect key="frame" x="16" y="161.66666666666669" width="398" height="770.33333333333326"/>
+                                <rect key="frame" x="16" y="161.66666666666669" width="361" height="690.33333333333326"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="68K-kM-VSq">
                                     <size key="itemSize" width="123" height="169"/>
@@ -132,7 +132,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="levelCell" id="ika-4B-OBb" customClass="LevelCell" customModule="NikolaiBall" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="levelCell" id="ika-4B-OBb" customClass="LevelCell" customModule="ClickKings" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="1" width="123" height="169"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ATx-ng-Sti">
@@ -214,12 +214,12 @@
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oRT-wM-Da1">
-                                    <rect key="frame" x="0.0" y="0.0" width="398" height="1"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="1"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="级别" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZx-jK-Byj">
-                                <rect key="frame" x="177" y="109.00000000000001" width="76" height="44.666666666666671"/>
+                                <rect key="frame" x="158.66666666666666" y="109.00000000000001" width="76" height="44.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -270,22 +270,22 @@
         <!--GameVC-->
         <scene sceneID="UDG-bj-mwv">
             <objects>
-                <viewController storyboardIdentifier="GameVC" id="aEE-Cf-zZj" customClass="GameVC" customModule="NikolaiBall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameVC" id="aEE-Cf-zZj" customClass="GameVC" customModule="ClickKings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vRf-j2-HSz">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameBack" translatesAutoresizingMaskIntoConstraints="NO" id="5Cp-Ld-Xzh">
-                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1级" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsT-dA-sWJ">
-                                <rect key="frame" x="189.33333333333334" y="69" width="51.666666666666657" height="44.666666666666657"/>
+                                <rect key="frame" x="170.66666666666666" y="69" width="51.666666666666657" height="44.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGP-We-Z9s">
-                                <rect key="frame" x="364" y="69" width="50" height="50"/>
+                                <rect key="frame" x="327" y="69" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="80Z-WX-3jx"/>
                                     <constraint firstAttribute="width" constant="50" id="Kw2-nz-e7R"/>
@@ -297,7 +297,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0Y-fi-WDM">
-                                <rect key="frame" x="364" y="127" width="50" height="50"/>
+                                <rect key="frame" x="327" y="127" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Ohn-I5-Xr3"/>
                                     <constraint firstAttribute="width" constant="50" id="dPc-H1-8gA"/>
@@ -321,7 +321,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="juf-Dh-dQ7">
-                                <rect key="frame" x="177" y="117.66666666666667" width="76" height="12.000000000000014"/>
+                                <rect key="frame" x="158.66666666666666" y="117.66666666666667" width="76" height="12.000000000000014"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteCircleImage" translatesAutoresizingMaskIntoConstraints="NO" id="snC-zL-woA">
                                         <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
@@ -389,7 +389,7 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aaa-lC-T8d">
-                                <rect key="frame" x="16" y="192" width="398" height="725"/>
+                                <rect key="frame" x="16" y="192" width="361" height="645"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d2v-pA-dMF">
                                         <rect key="frame" x="30" y="30" width="80" height="128"/>
@@ -505,13 +505,13 @@
         <!--Settings View Controller-->
         <scene sceneID="MDL-7W-fC4">
             <objects>
-                <viewController storyboardIdentifier="SettingsViewController" id="lxK-GK-hOa" customClass="SettingsViewController" customModule="NikolaiBall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsViewController" id="lxK-GK-hOa" customClass="SettingsViewController" customModule="ClickKings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l4y-Gl-MpH">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameBack" translatesAutoresizingMaskIntoConstraints="NO" id="m3a-5f-6Zf">
-                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJN-NU-OaM">
                                 <rect key="frame" x="16" y="69" width="50" height="50"/>
@@ -526,22 +526,22 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rm-wN-14d">
-                                <rect key="frame" x="177" y="89" width="76" height="44.666666666666657"/>
+                                <rect key="frame" x="158.66666666666666" y="89" width="76" height="44.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="eQw-60-3V3">
-                                <rect key="frame" x="80" y="148.66666666666669" width="270" height="596.66666666666652"/>
+                                <rect key="frame" x="80" y="148.66666666666663" width="233" height="452"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBx-hM-PPh">
-                                        <rect key="frame" x="0.0" y="0.0" width="270" height="44.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="233" height="44.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="38"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtt-hB-P60">
-                                        <rect key="frame" x="0.0" y="59.666666666666686" width="270" height="35"/>
+                                        <rect key="frame" x="0.0" y="59.666666666666686" width="233" height="35"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Du9-xT-Fc3">
                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
@@ -555,7 +555,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QR7-hh-d7C">
-                                                <rect key="frame" x="235" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="198" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="lWc-M3-I2x"/>
                                                 </constraints>
@@ -566,7 +566,7 @@
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball0" translatesAutoresizingMaskIntoConstraints="NO" id="h5N-kB-cVi">
-                                                <rect key="frame" x="117.66666666666666" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="99" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="IeW-QX-MAb"/>
                                                 </constraints>
@@ -588,13 +588,13 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="篮子" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qg-br-5uz">
-                                        <rect key="frame" x="0.0" y="109.66666666666667" width="270" height="44.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="109.66666666666667" width="233" height="44.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular_Bold" family="Karla" pointSize="38"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c6U-3Y-ZCz">
-                                        <rect key="frame" x="0.0" y="169.33333333333334" width="270" height="70"/>
+                                        <rect key="frame" x="0.0" y="169.33333333333334" width="233" height="70"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tig-DC-Dxh">
                                                 <rect key="frame" x="0.0" y="15" width="40" height="40"/>
@@ -608,7 +608,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1av-Wp-WkH">
-                                                <rect key="frame" x="230" y="15" width="40" height="40"/>
+                                                <rect key="frame" x="193" y="15" width="40" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="40" id="7yK-R8-UNe"/>
                                                 </constraints>
@@ -619,7 +619,7 @@
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cup0" translatesAutoresizingMaskIntoConstraints="NO" id="A5j-BT-v4O">
-                                                <rect key="frame" x="100" y="0.0" width="70" height="70"/>
+                                                <rect key="frame" x="81.666666666666657" y="0.0" width="70" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="70" id="89G-1n-n9o"/>
                                                 </constraints>
@@ -641,10 +641,10 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="p9U-km-YOf">
-                                        <rect key="frame" x="0.0" y="254.33333333333334" width="270" height="342.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="254.33333333333337" width="233" height="197.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FC-YI-Jul">
-                                                <rect key="frame" x="0.0" y="0.0" width="270" height="117.33333333333333"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="233" height="101.33333333333333"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5FC-YI-Jul" secondAttribute="height" multiplier="230:100" id="Sek-yb-VTK"/>
                                                 </constraints>
@@ -655,26 +655,17 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLV-fs-sWP">
-                                                <rect key="frame" x="0.0" y="112.33333333333337" width="270" height="117.33333333333331"/>
+                                                <rect key="frame" x="0.0" y="96.333333333333314" width="233" height="101.33333333333331"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="fLV-fs-sWP" secondAttribute="height" multiplier="230:100" id="h96-Lf-wrI"/>
+                                                </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" backgroundImage="firstSettingsButton"/>
                                                 <connections>
                                                     <action selector="secondSettingsButton:" destination="lxK-GK-hOa" eventType="touchUpInside" id="aD5-kc-nja"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Db7-KX-FtS">
-                                                <rect key="frame" x="0.0" y="224.6666666666666" width="270" height="117.66666666666666"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" backgroundImage="firstSettingsButton"/>
-                                                <connections>
-                                                    <action selector="thirdSettingsButton:" destination="lxK-GK-hOa" eventType="touchUpInside" id="P5U-bi-MAb"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="fLV-fs-sWP" firstAttribute="width" secondItem="fLV-fs-sWP" secondAttribute="height" multiplier="230:100" id="h96-Lf-wrI"/>
-                                            <constraint firstItem="Db7-KX-FtS" firstAttribute="width" secondItem="Db7-KX-FtS" secondAttribute="height" multiplier="230:100" id="m87-SS-Xu0"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
@@ -707,19 +698,19 @@
         <!--Privacy PolicyVC-->
         <scene sceneID="7T4-jj-dqj">
             <objects>
-                <viewController storyboardIdentifier="PrivacyPolicyVC" id="D9I-Ar-lNl" customClass="PrivacyPolicyVC" customModule="NikolaiBall" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PrivacyPolicyVC" id="D9I-Ar-lNl" customClass="PrivacyPolicyVC" customModule="ClickKings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="diL-eq-cxE">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4a-5v-XOh">
-                                <rect key="frame" x="30" y="180.33333333333331" width="370" height="571.33333333333348"/>
+                                <rect key="frame" x="30" y="169" width="333" height="514"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="policyBackImage" translatesAutoresizingMaskIntoConstraints="NO" id="lzu-pg-sJQ">
-                                        <rect key="frame" x="0.0" y="10" width="370" height="561.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="10" width="333" height="504"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBy-Ee-7Cf">
-                                        <rect key="frame" x="320" y="0.0" width="60" height="60"/>
+                                        <rect key="frame" x="283" y="0.0" width="60" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="Mmq-xz-sNz"/>
                                             <constraint firstAttribute="height" constant="60" id="VNl-i1-OYW"/>
@@ -730,16 +721,168 @@
                                             <action selector="xTapped:" destination="D9I-Ar-lNl" eventType="touchUpInside" id="38G-nS-SZM"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隐私政策" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wh-R9-GsR">
-                                        <rect key="frame" x="137" y="39" width="96" height="28.333333333333329"/>
-                                        <fontDescription key="fontDescription" name="Karla-Regular_ExtraBold" family="Karla" pointSize="24"/>
-                                        <color key="textColor" red="0.30980392156862746" green="0.30980392156862746" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3kR-C0-z0Z">
-                                        <rect key="frame" x="19" y="74.999999999999972" width="332" height="456.33333333333326"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3kR-C0-z0Z">
+                                        <rect key="frame" x="19" y="75" width="295" height="399"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <mutableString key="text">隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策 隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策隐私政策</mutableString>
+                                        <mutableString key="text">Privacy Policy for Jumperks Balliks
+Privacy Policy
+Last updated: March 19, 2025
+
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+
+We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator.
+
+Interpretation and Definitions
+
+Interpretation
+
+The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+
+Definitions
+
+For the purposes of this Privacy Policy:
+
+Account means a unique account created for You to access our Service or parts of our Service.
+
+Affiliate means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+
+Application refers to Jumperks Balliks, the software program provided by the Company.
+
+Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Jumperks Balliks.
+
+Country refers to: Turkey
+
+Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+
+Personal Data is any information that relates to an identified or identifiable individual.
+
+Service refers to the Application.
+
+Service Provider means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
+
+Usage Data refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+
+You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+
+Collecting and Using Your Personal Data
+
+Types of Data Collected
+
+Personal Data
+
+While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
+
+Usage Data
+Usage Data
+
+Usage Data is collected automatically when using the Service.
+
+Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+
+When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
+
+We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
+
+Use of Your Personal Data
+
+The Company may use Personal Data for the following purposes:
+
+To provide and maintain our Service, including to monitor the usage of our Service.
+
+To manage Your Account: to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.
+
+For the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
+
+To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
+
+To provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
+
+To manage Your requests: To attend and manage Your requests to Us.
+
+For business transfers: We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.
+
+For other purposes: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.
+
+We may share Your personal information in the following situations:
+
+With Service Providers: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
+For business transfers: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
+With Affiliates: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
+With business partners: We may share Your information with Our business partners to offer You certain products, services or promotions.
+With other users: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
+With Your consent: We may disclose Your personal information for any other purpose with Your consent.
+Retention of Your Personal Data
+
+The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+
+The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
+
+Transfer of Your Personal Data
+
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+
+Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
+
+The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
+
+Delete Your Personal Data
+
+You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
+
+Our Service may give You the ability to delete certain information about You from within the Service.
+
+You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.
+
+Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
+
+Disclosure of Your Personal Data
+
+Business Transactions
+
+If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
+
+Law enforcement
+
+Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+
+Other legal requirements
+
+The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
+
+Comply with a legal obligation
+Protect and defend the rights or property of the Company
+Prevent or investigate possible wrongdoing in connection with the Service
+Protect the personal safety of Users of the Service or the public
+Protect against legal liability
+Security of Your Personal Data
+
+The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+
+Children's Privacy
+
+Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
+
+If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
+
+Links to Other Websites
+
+Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+Changes to this Privacy Policy
+
+We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
+
+We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+Contact Us
+
+If you have any questions about this Privacy Policy, You can contact us:
+
+By email: kantereren6@icloud.com</mutableString>
                                         <color key="textColor" red="0.30980392156862746" green="0.30980392156862746" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular_ExtraBold" family="Karla" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -747,9 +890,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="6Wh-R9-GsR" firstAttribute="top" secondItem="W4a-5v-XOh" secondAttribute="top" constant="39" id="Cdn-fL-Htt"/>
                                     <constraint firstItem="3kR-C0-z0Z" firstAttribute="leading" secondItem="W4a-5v-XOh" secondAttribute="leading" constant="19" id="GwD-HO-6cJ"/>
-                                    <constraint firstItem="6Wh-R9-GsR" firstAttribute="centerX" secondItem="W4a-5v-XOh" secondAttribute="centerX" id="MMS-Ij-bHf"/>
                                     <constraint firstItem="bBy-Ee-7Cf" firstAttribute="top" secondItem="W4a-5v-XOh" secondAttribute="top" id="PCl-O0-7ag"/>
                                     <constraint firstAttribute="trailing" secondItem="bBy-Ee-7Cf" secondAttribute="trailing" constant="-10" id="S0V-cv-N19"/>
                                     <constraint firstAttribute="bottom" secondItem="lzu-pg-sJQ" secondAttribute="bottom" id="STN-bb-MLm"/>
@@ -758,7 +899,6 @@
                                     <constraint firstAttribute="trailing" secondItem="lzu-pg-sJQ" secondAttribute="trailing" id="cK6-kt-Acj"/>
                                     <constraint firstAttribute="width" secondItem="W4a-5v-XOh" secondAttribute="height" multiplier="298:460" id="cZ5-PD-Tvc"/>
                                     <constraint firstItem="lzu-pg-sJQ" firstAttribute="leading" secondItem="W4a-5v-XOh" secondAttribute="leading" id="dgL-Ix-mGa"/>
-                                    <constraint firstItem="3kR-C0-z0Z" firstAttribute="top" secondItem="6Wh-R9-GsR" secondAttribute="bottom" constant="7.6699999999999999" id="du1-0j-gyl"/>
                                     <constraint firstItem="lzu-pg-sJQ" firstAttribute="top" secondItem="W4a-5v-XOh" secondAttribute="top" constant="10" id="gnz-rc-hfA"/>
                                 </constraints>
                             </view>
